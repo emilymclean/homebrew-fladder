@@ -1,6 +1,6 @@
 cask "fladder" do
-  version "0.3.1"
-  sha256 "a75ff34c39973a2417db06ccd179846a8dea6adfc85b65692eff3a276d904827"
+  version "0.4.1"
+  sha256 "c757db9c076cb7d7c733b308fbc51ff8ff758783d5e3cec81cce99b045c8036f"
 
   url "https://github.com/DonutWare/Fladder/releases/download/v#{version}/Fladder-macOS-#{version}.dmg"
   name "fladder"
