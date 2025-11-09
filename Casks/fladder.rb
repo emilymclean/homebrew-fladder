@@ -12,8 +12,6 @@ cask "fladder" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :mojave"
-
   app "Fladder.app"
 
   zap trash: "~/Library/Containers/Fladder"
