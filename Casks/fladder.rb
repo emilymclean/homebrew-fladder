@@ -7,12 +7,13 @@ cask "fladder" do
   desc "Simple Jellyfin Frontend built on top of Flutter"
   homepage "https://github.com/DonutWare/Fladder"
 
-  deprecate! date: "2026-03-29", because: "an official tap has become available at DonutWare/fladder", replacement_cask: "DonutWare/fladder/fladder"
-
   livecheck do
     url :url
     strategy :github_latest
   end
+  
+  deprecate! date: "2026-03-29", because: "an official tap has become available at DonutWare/fladder",
+    replacement_cask: "DonutWare/fladder/fladder"
 
   app "Fladder.app"
 
