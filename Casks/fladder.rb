@@ -1,6 +1,6 @@
 cask "fladder" do
-  version "0.10.3"
-  sha256 "567cf48ed983a6d72b7a113b0eb8324f3149268a62aec2da3be96ed55fd777ea"
+  version "0.11.0"
+  sha256 "7e5ef72dd028d04d6a73213640242ccc06ecb5c32358bae9eafd4b60afa73c29"
 
   url "https://github.com/DonutWare/Fladder/releases/download/v#{version}/Fladder-macOS-#{version}.dmg"
   name "fladder"
@@ -14,6 +14,8 @@ cask "fladder" do
 
   deprecate! date: "2026-03-29", because: "an official tap has become available at DonutWare/fladder",
              replacement_cask: "DonutWare/fladder/fladder"
+
+  depends_on :macos
 
   app "Fladder.app"
 
